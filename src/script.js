@@ -7,6 +7,17 @@ import * as THREE from 'three'
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
 
+// Cursor
+const cursor = {
+    x: 0,
+    y: 0,
+};
+window.addEventListener('mousemove', e => {
+    cursor.x = e.clientX;
+    cursor.y = e.clientY;
+    console.log(cursor);
+});
+
 // Sizes
 const sizes = {
     width: 800,
