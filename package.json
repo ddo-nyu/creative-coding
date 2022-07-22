@@ -16,6 +16,7 @@
         "html-loader": "^3.1.0",
         "html-webpack-plugin": "^5.5.0",
         "mini-css-extract-plugin": "^2.6.0",
+        "ml5": "^0.12.2",
         "portfinder-sync": "0.0.2",
         "raw-loader": "^4.0.2",
         "style-loader": "^3.3.1",
